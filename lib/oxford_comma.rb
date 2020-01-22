@@ -14,6 +14,9 @@ def oxford_comma(array)
     #if the array is at its last element, add an and at the end
     if element == array.at((array.length-1))
       string_list += " and #{element}"
-    
+      
+    else
+      string_list += ", #{element}"
+    end
   end
 end
