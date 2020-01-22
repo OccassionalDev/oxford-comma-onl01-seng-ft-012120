@@ -19,4 +19,6 @@ def oxford_comma(array)
       string_list += ", #{element}"
     end
   end
+  
+  return string_list
 end
