@@ -8,12 +8,12 @@ def oxford_comma(array)
     return "#{array.first} and #{array.last}"
   end
   
-  
+  string_list =""
   
   array.each do |element|
     #if the array is at its last element, add an and at the end
     if element == array.at((array.length-1))
-      
+      string_list += " and #{element}"
     
   end
 end
