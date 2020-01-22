@@ -1,3 +1,13 @@
 def oxford_comma(array)
-
+  #If the array contains 1 element, return the string, if not continue with the program
+  
+  if array.length == 1
+    return array.first
+  end
+  
+  array.each do |element|
+    #if the array is at its last element, add an and at the end
+    if element == array[array.at]
+    
+  end
 end
