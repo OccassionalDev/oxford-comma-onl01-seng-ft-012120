@@ -3,11 +3,17 @@ def oxford_comma(array)
   
   if array.length == 1
     return array.first
+    
+  elsif array.length == 2
+    return "#{array.first} and #{array.last}"
   end
+  
+  
   
   array.each do |element|
     #if the array is at its last element, add an and at the end
-    if element == array[array.at]
+    if element == array.at((array.length-1))
+      
     
   end
 end
