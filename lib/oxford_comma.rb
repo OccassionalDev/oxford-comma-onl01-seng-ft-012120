@@ -11,11 +11,11 @@ def oxford_comma(array)
   string_list =""
   
   array.each do |element|
-    if element == array.first
+    if element == array.first ||
       string_list += element
     
     elsif element == array.at((array.length-1))
-      string_list += " and #{element}"
+      string_list += ", and #{element}"
       
     else
       string_list += ", #{element}"
